@@ -2,7 +2,7 @@
 
 /**
  * prinsint - prints int begining with space
- * @arguments: input string
+ * @arguments: input the string
  * @buf: buffer pointer
  * @ibuf: index for buffer pointer
  * Return: number of chars printed
