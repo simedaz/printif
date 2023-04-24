@@ -4,9 +4,10 @@
  * prinnhex - print number in hex begining with zero
  * @arguments: input string
  * @buf: buffer pointer
- * @ibuf: index for buffer pointer
- * Return: number of chars printed
+ * @ibuf: index for the buffer pointer
+ * Return: number of the chars printed
  */
+
 int prinnhex(va_list arguments, char *buf, unsigned int ibuf)
 {
 	int int_input, i, isnegative, count, first_digit;
