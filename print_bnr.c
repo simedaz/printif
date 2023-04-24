@@ -30,7 +30,9 @@ int print_bnr(va_list arguments, char *buf, unsigned int ibuf)
 	for (count = i = 0; binary[i]; i++)
 	{
 		if (first_one == 0 && binary[i] == '1')
+		{
 			first_one = 1;
+		}
 		if (first_one == 1)
 		{
 			ibuf = handl_buf(buf, binary[i], ibuf);
