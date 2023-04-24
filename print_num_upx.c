@@ -5,8 +5,9 @@
  * @arguments: input string
  * @buf: buffer pointer
  * @ibuf: index for buffer pointer
- * Return: number of chars printed
+ * Return: number of the chars printed
  */
+
 int prinnupx(va_list arguments, char *buf, unsigned int ibuf)
 {
 	int int_input, i, isnegative, count, first_digit;
