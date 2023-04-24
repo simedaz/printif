@@ -2,7 +2,7 @@
 /**
  * print_hex - prints a decimal in hexadecimal
  * @arguments: input string
- * @buf: buffer pointer
+ * @buf: buffer the pointer
  * @ibuf: index for buffer pointer
  * Return: number of chars printed
  */
@@ -30,7 +30,9 @@ int print_hex(va_list arguments, char *buf, unsigned int ibuf)
 	for (first_digit = i = count = 0; hexadecimal[i]; i++)
 	{
 		if (hexadecimal[i] != '0' && first_digit == 0)
+		{
 			first_digit = 1;
+		}
 		if (first_digit)
 		{
 			ibuf = handl_buf(buf, hexadecimal[i], ibuf);
