@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * fill_hex_array - writes the character c to stdout
+ * fill_hex_array - writes the character c to all stdout
  *
  * @bnr: array where is stored the binary.
  * @hex: array where is stored the hexadecimal.
